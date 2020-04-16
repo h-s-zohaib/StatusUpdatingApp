@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter the User Name"
+    android:maxLength="20"
+    android:id="@+id/username"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the User status"
+        android:maxLength="100"
+        android:inputType="textImeMultiLine"
+        android:id="@+id/userstatus"
+        android:layout_below="@id/username"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Status"
+        android:id="@+id/addstatus"
+        android:layout_below="@id/userstatus"
+        android:onClick="addstatus"
+        />
+
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/RV"
+    android:layout_below="@id/addstatus"
+/>
+
+</RelativeLayout>

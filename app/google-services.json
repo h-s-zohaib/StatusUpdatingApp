@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "235881915363",
+    "firebase_url": "https://statusupdatingapp-c578f.firebaseio.com",
+    "project_id": "statusupdatingapp-c578f",
+    "storage_bucket": "statusupdatingapp-c578f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235881915363:android:b52d6c488efd213ea2f6d6",
+        "android_client_info": {
+          "package_name": "com.example.statusupdatingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235881915363-fur1gj399airjqqg2u47jo2eltbkqov9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.statusupdatingapp",
+            "certificate_hash": "262ac25a2da3d20eba22e4b9729d33d442b50141"
+          }
+        },
+        {
+          "client_id": "235881915363-g5vbqdga3m93e9jice7pk7659rcn9kfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBentm-2zYh8rc8u0g5FdJzaKFbZ75SOQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235881915363-g5vbqdga3m93e9jice7pk7659rcn9kfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
